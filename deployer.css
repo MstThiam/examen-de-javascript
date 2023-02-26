@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .left-column, .right-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin: 0;
+  }

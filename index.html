@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Carriére de vie (CV) </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Etat civil</h1>
+      </div>
+      <div class="main">
+        <div class="left-column">
+          <ul>
+            <li>Nom : </li>
+            <li>Premoms : </li>
+            <li>Date et lieu de naissance : </li>
+            <li>Situattion de famille : </li>
+            <li>Adresse : </li>
+            <li>Email : </li>
+            <li>Numéero de téléphone : </li>
+          </ul>
+          <h3> Domaines de compétences</h3>
+          <ul>
+            <li>Compétence 1 : </li>
+            <li>Compétence 2 : </li>
+            <li>Compétence 3 : </li>
+          </ul>
+          <h3> Diplomes</h3>
+          <ul>
+            <li>Diplome 1 : </li>
+            <li>Diplome 2 : </li>
+            <li>Diplome 3 : </li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h3>Expérience professionnelle</h3>
+          <ul>
+            <li>
+              <h4>Titre de poste : </h4>
+              <p>Date de début - Date de fin : </p>
+              <p>Description de l'emploi : </p>
+            </li>
+          </ul>
+          <h3>Formation</h3>
+          <ul>
+            <li>
+              <h4>Nom de l'établissement :  </h4>
+              <p>Date de début - Date de fin : </p>
+              <p>Description de la formation : </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+        var printButton = document.createElement('button');
+printButton.textContent = 'Imprimer le CV';
+printButton.addEventListener('click', function() {
+  window.print();
+});
+document.body.appendChild(printButton);
+    </script>
+  </body>
+</html>
